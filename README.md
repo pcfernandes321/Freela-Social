@@ -51,7 +51,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
         <td align="center">
       <a href="https://github.com/pcfernandes321">
-        <img src="./images/Paulo.png" width="100px;" alt="Foto do Paulo Fernandes"/><br>
+        <img src="./images/Paulo.jpeg" width="100px;" alt="Foto do Paulo Fernandes"/><br>
         <sub>
           <b>Paulo Fernandes</b>
         </sub>
