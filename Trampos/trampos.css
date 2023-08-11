@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700,400italic|Oswald:400,700"');
+
+body{
+  background-color: #55942F; 
+  font-family: Oswald; 
+  color: white;
+}
+
+nav{
+  color: white;
+  font-family: Oswald;
+  display: flex;
+  justify-content: space-around;
+}
+
+div{
+color: white;
+font-family: Oswald;
+}
