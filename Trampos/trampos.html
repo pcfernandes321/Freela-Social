@@ -5,12 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trampos</title>
     <link rel="stylesheet" href="./trampos.css">
+    <script src="./trampos.js" defer></script>
     
 </head>
 <body>
-    <h1>FreeLa Social - Trampos Disponíveis</h1><br>
+
+    <header>
+        <h1>FreeLa Social - Trampos Disponíveis</h1><br>
+    </header>
+
+   
     <nav>      
-        <div>
+        <div class="divTrampos">
             <h2>Trampos:</h2>
             <p>Atendimento à marca de produtos personalizados</p>
             <p>Atendimento ao cliente via WhatsApp</p>
@@ -18,15 +24,22 @@
             <p>Cadastrar produtos na Shopify</p>
             <p>Pintura na obra do shopping FreeLa Social</p>
         </div>
-        <div>
+        <div class="divBusca">
             <br>
             <h2>Buscar Trampos </h2>
             <input type="text" id="txtBusca">
-            <button type="button">Buscar</button>
+            <button id="buscaTrampos">Buscar</button>
+            
         </div>   
-        <div>
-            <img src="./imagens/imagem-anuncio.png" alt="imagem de um homem anunciando pelo megafone">
-        </div>     
+        <div class="divResultados">
+            <main>
+                
+            </main>
+        </div>
+             
     </nav>
+    <footer>
+        <img src="./imagens/imagem-anuncio.png" width="150px" alt="imagem de um homem anunciando pelo megafone">
+    </footer>
 </body>
 </html>
