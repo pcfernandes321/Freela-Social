@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lora:400,700,400italic|Oswald:400,700"');
 
 body{
-  background-color: #55942F; 
+  background-color: green; 
   font-family: Oswald; 
   color: white;
 }
@@ -14,7 +14,7 @@ nav{
 }
 
 div{
-  background-color: rgb(201, 245, 210);
+  background-color: limegreen;
   padding: 1.5rem 2rem;
   width: 600px;
   border-radius: 0px;
@@ -26,9 +26,9 @@ div{
 
 header{
   display: flex;
-  justify-content:center;
-  background-color: rgb(201, 245, 210);
-  padding: 1.5rem 2rem;
+  justify-content:left;
+  background-color: limegreen;
+  padding: 1rem 5rem;
   border-radius: 0px;
   color: rgb(0, 0, 0);
   box-shadow: 4px 4px 8px rgba(0, 0, 0, .3);
@@ -39,7 +39,7 @@ header{
 
 .divResultados{
   
-  background-color: rgb(126, 231, 149);
+  background-color: limegreen;
   padding: 1.5rem 2rem;
   width: 600px;
   border-radius: 0px;
@@ -67,4 +67,33 @@ article h3 {
   padding-bottom: .5rem;
   font-size: 1.5rem;
   border-bottom: 1px solid rgb(21, 3, 58);;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #173f00;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #000000;
+}
+
+h1 {
+  color: #173f00;
 }

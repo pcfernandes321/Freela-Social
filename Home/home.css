@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lora:400,700,400italic|Oswald:400,700"');
 
 body{
-  background-color: #55942F; 
+  background-color: rgb(14, 171, 0);
   font-family: Oswald; 
   color: white;
 }
@@ -14,7 +14,7 @@ nav{
 }
 
 div{
-  background-color: rgb(201, 245, 210);
+  background-color: rgb(14, 171, 0);
   padding: 1.5rem 2rem;
   width: 600px;
   border-radius: 0px;
@@ -27,7 +27,7 @@ div{
 header{
   display: flex;
   justify-content:left;
-  background-color: rgb(201, 245, 210);
+  background-color: limegreen;
   padding: 1rem 5rem;
   border-radius: 0px;
   color: rgb(0, 0, 0);
@@ -39,7 +39,7 @@ header{
 
 .divConteudo{
   
-  background-color: rgb(126, 231, 149);
+  background-color: limegreen;
   padding: 1.5rem 2rem;
   width: 600px;
   border-radius: 0px;
@@ -52,17 +52,20 @@ header{
   font-size: 30px;
   display: flex;
   text-align: center;
+  color: white;
+  
 }
 
 
 .divAvisos {
-  background-color: rgb(126, 231, 149);
+  background-color: limegreen;
   padding: 1.5rem 2rem;
   width: 600px;
   border-radius: 0px;
-  color: rgb(21, 3, 58);
+  color: rgb(255, 255, 255);
   box-shadow: 4px 4px 8px rgba(0, 0, 0, .3);
   margin-bottom: 2rem;
+  
 
 }
 
