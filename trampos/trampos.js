@@ -22,7 +22,28 @@ const arrayTrampos = [
 
   console.log(arrayTrampos)
 
-//criando o elemento 
+
+  function buscarSubtitulo() {
+    const buscaInput = document.getElementById("buscaInput").value.toLowerCase();
+    const resultadoBusca = document.getElementById("resultadoBusca");
+    resultadoBusca.innerHTML = ""; // Limpa o conteúdo anterior
+
+    for (let i = 0; i < arrayTrampos.length; i++) {
+        const subtitulo = arrayTrampos[i].subtitulo.toLowerCase();
+
+        if (subtitulo.includes(buscaInput)) {
+            // Se o subtitulo incluir a busca, exiba o resultado
+            const resultado = document.createElement("div");
+            resultado.textContent = `Título: ${arrayTrampos[i].titulo}, Subtítulo: ${arrayTrampos[i].subtitulo}, Data: ${arrayTrampos[i].data}, Texto: ${arrayTrampos[i].texto}`;
+            resultadoBusca.appendChild(resultado);
+        }
+    }
+}
+
+
+
+/*
+  //criando o elemento 
 
 for (i = 0; i<arrayTrampos.length; i++ ){
 const article = document.createElement('article');
